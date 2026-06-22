@@ -11,13 +11,20 @@ config_version=5
 [application]
 
 config/name="Undertale2"
-config/features=PackedStringArray("4.7", "Forward Plus")
+run/main_scene="uid://d0bwpxlwxg17m"
+config/features=PackedStringArray("4.7", "C#", "Forward Plus")
 config/icon="res://icon.svg"
 
 [display]
 
-window/stretch/mode="canvas_items"
+window/size/viewport_width=640
+window/size/viewport_height=480
+window/stretch/mode="viewport"
 window/stretch/aspect="expand"
+
+[dotnet]
+
+project/assembly_name="Undertale2"
 
 [physics]
 
@@ -25,5 +32,5 @@ window/stretch/aspect="expand"
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 rendering_device/driver.windows="d3d12"
-renderer/rendering_method="forward_plus"
