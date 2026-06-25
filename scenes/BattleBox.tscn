@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://cue3vwe7tiveo"]
+
+[ext_resource type="Script" uid="uid://wvqxcppyx3rw" path="res://scripts/BattleBox.cs" id="1_oj4tb"]
+
+[node name="BattleBox" type="Node2D" unique_id=1618463670]
+script = ExtResource("1_oj4tb")
+InnerPath = NodePath("Node2D/Inner")
+
+[node name="Node2D" type="Node2D" parent="." unique_id=1806961665]
+
+[node name="Outer" type="ColorRect" parent="Node2D" unique_id=848390383]
+offset_left = -104.0
+offset_top = -64.0
+offset_right = 104.0
+offset_bottom = 104.0
+
+[node name="Inner" type="ColorRect" parent="Node2D" unique_id=792266651]
+offset_left = -100.0
+offset_top = -59.0
+offset_right = 100.0
+offset_bottom = 101.0
+color = Color(0, 0, 0, 1)

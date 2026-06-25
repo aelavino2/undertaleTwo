@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dcc68736jecxd"
-path="res://.godot/imported/BlueSoulSprite1.png-407caea73c5f7717846278f0857cfbbd.ctex"
+uid="uid://pjspsxs83vjs"
+path="res://.godot/imported/sprite_08.png-86c419c38d1d0e2178c94d3ecd334bfc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/BlueSoulSprite1.png"
-dest_files=["res://.godot/imported/BlueSoulSprite1.png-407caea73c5f7717846278f0857cfbbd.ctex"]
+source_file="res://sprites/sprite_08.png"
+dest_files=["res://.godot/imported/sprite_08.png-86c419c38d1d0e2178c94d3ecd334bfc.ctex"]
 
 [params]
 

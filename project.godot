@@ -26,6 +26,11 @@ window/stretch/aspect="expand"
 
 project/assembly_name="Undertale2"
 
+[layer_names]
+
+2d_physics/layer_1="player"
+2d_physics/layer_2="bullet"
+
 [physics]
 
 3d/physics_engine="Jolt Physics"

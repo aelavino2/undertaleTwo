@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://d0bwpxlwxg17m"]
 
 [ext_resource type="PackedScene" uid="uid://gx53txocflxa" path="res://scenes/Player.tscn" id="1_um1ds"]
+[ext_resource type="Script" uid="uid://b4i8vqk24i8uf" path="res://scripts/BattleTrigger.cs" id="2_2dtu0"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4kxuq"]
 size = Vector2(640, 5)
@@ -13,6 +14,9 @@ size = Vector2(6.5, 484)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_62yky"]
 size = Vector2(651, 8)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qwqyf"]
+size = Vector2(146, 20)
 
 [node name="Room1" type="Node2D" unique_id=1571176879]
 metadata/_edit_vertical_guides_ = [-85.0]
@@ -48,3 +52,10 @@ shape = SubResource("RectangleShape2D_62yky")
 
 [node name="Player" parent="." unique_id=1826572596 instance=ExtResource("1_um1ds")]
 position = Vector2(325, 241)
+
+[node name="BattleTrigger" type="Area2D" parent="." unique_id=632733823]
+script = ExtResource("2_2dtu0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BattleTrigger" unique_id=727637632]
+position = Vector2(185, 82)
+shape = SubResource("RectangleShape2D_qwqyf")
